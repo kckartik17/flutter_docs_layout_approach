@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8.0),
                   child: Text(
-                    'The Muskan PG',
+                    'The NorthCap University',
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ),
@@ -88,7 +88,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         theme:
-            ThemeData(primaryColor: Colors.blue, brightness: Brightness.dark),
+            ThemeData(primaryColor: Colors.blue, brightness: Brightness.light),
         home: Scaffold(
           appBar: AppBar(
             title: Center(
